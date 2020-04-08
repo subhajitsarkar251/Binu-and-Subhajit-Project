@@ -5,4 +5,27 @@
     margin-bottom: 20px;
    
 }
-
+.fa-heart{
+    color: red;
+    background-color: transparent;
+    border:none;
+}
+footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    color:white;
+    background-color: Tomato;
+    
+}
+a{
+     color:black;
+}
+a:hover{
+    text-decoration: none;
+    color:white;
+    
+}
