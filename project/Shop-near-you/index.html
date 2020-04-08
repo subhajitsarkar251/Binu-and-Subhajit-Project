@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop Near you</title>
 <!--Font Awasome link-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" >
@@ -16,13 +17,21 @@
 
   <nav class="navbar navbar-light bg-light">
      <div class="container-fluid">
-         <i class="fas fa-mobile-alt"> <a href=#> Get the App</a></i>
-         <i class="fas fa-mobile-alt"> <a href=#> Get the partner App</a></i>
+         <i class="fas fa-mobile-alt nvh"> <a href=#>  Get the App</a></i>
+         <i class="fas fa-mobile-alt nvh"> <a href=#>  Get the partner App</a></i>
       </div>
   </nav>
   <br>
+  <div class="fbdy">
   <!--header Item-->
    <nav>
+    <!--search bar-->
+    <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Shop Name" aria-label="Shop Name" >
+          <div class="input-group-append">
+            <button class="btn btn-outline-secondary" type="button"><i class="fas fa-search"></i></button>
+          </div>
+    </div>
      <div>
          <div >
              <button type="submit" class="btn btn-link ">
@@ -36,33 +45,122 @@
            <div>
                <h1>Shop Near you</h1>
             <!--Tag line-->
-               <p>Fint the best Shop Near You</p>
+               <p>Find the best Shop Near You</p>
            </div>
         
            
        </div>
     </nav>
  <!--shop list-->
-     <section>
-         <div>
-             <h1>Display all shop list</h1>
-         </div>
-     </section>
+       
+       <div class="container-fluid card-deck">
+       <!--shop 1-->
+        <div class="card mb-3 " style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4 ">
+              <img src="img/shop.jpg" class="card-img">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Shop Name</h5>
+                <p class="card-text">Short Address</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--shop 2-->
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="img/shop.jpg" class="card-img">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Shop Name</h5>
+                <p class="card-text">Short Address</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--shop 3-->
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="img/shop.jpg" class="card-img">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Shop Name</h5>
+                <p class="card-text">Short Address</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--shop 4-->
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="img/shop.jpg" class="card-img">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Shop Name</h5>
+                <p class="card-text">Short Address</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--shop 5-->
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="img/shop.jpg" class="card-img">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Shop Name</h5>
+                <p class="card-text">Short Address</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>   
+    
 <!--Footer-->
      <footer>
-        <section>
+        
+           <!--social icone-->
+             <ul class="list">
+               <li class="list1">Stay in touch:</li>
+                <li class="list1">
+                    <a href=#><i class="fab fa-facebook-f fac"></i></a>
+                 </li>
+                 <li class="list1">
+                     <a href=#> <i class="fab fa-twitter tw"></i></a>
+
+                 </li>
+                 <li class="list1">    
+                     <a href=#><i class="fab fa-google-plus-g g"></i></a>
+                 </li>
+                 <li class="list1">
+                     <a href=#><i class="fab fa-instagram in"></i></a>
+                 </li>
+                 <li class="list1">
+                     <a href=#><i class="fab fa-pinterest p"></i></a>
+                 </li>
+                </ul>
+        
             <div>
-                <h1>
-                    Social button
-                </h1>
+                <p>Made with <i class="fas fa-heart"></i> and <i class="fas fa-code"></i>
+                By Binu Tamang and Subhajit Sarkar</p>
             </div>
-        </section> 
-        <section>
-            <div>
-                <p>Made with <i class="fas fa-heart"></i> and <i class="fas fa-code"></i></p>
-                <p>By Binu Tamang and Subhajit Sarkar</p>
-            </div>
-        </section>
+       
      </footer>
 <!-- bootstrap js-->
    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" ></script>
