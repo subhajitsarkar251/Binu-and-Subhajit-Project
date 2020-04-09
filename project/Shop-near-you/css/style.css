@@ -1,0 +1,69 @@
+/***navigation hader****/
+.fbdy{
+        margin: 10px;
+    }
+    
+.nvh{
+    margin: auto;
+    
+    
+}
+.scrd{
+    padding:10px;
+}
+.fa-heart{
+    color: red;
+    background-color: transparent;
+    border:none;
+}
+footer{
+<<<<<<< HEAD
+    background-color: #01CBC6;
+    position: absolute;
+=======
+    
+    left: 0;
+    bottom: 0;
+>>>>>>> cb6891c6dcde109ef4a8d36f8c582fbd5cb7e3fa
+    width: 100%;
+    text-align: center;
+}
+/*************social Icon***********/
+.list{
+    margin-top:180px;
+    margin-bottom:90px;
+    margin-left:-40px;;
+}
+.list1{
+    
+    display:inline;
+    padding:10px;
+    font-size:20px;
+}
+.fac{
+    color:#3B5998;
+}
+.tw{
+    color:#429cd6;
+}
+.g{
+    color:red;
+}
+.in{
+    color:saddlebrown;
+}
+.p{
+    color:gold;
+}
+ 
+.aba{
+    margin-bottom: 30px;
+    margin-top:30px;
+}
+/********Mobile view************/
+@media only screen and (max-width: 600px) {
+    .fbdy{
+        margin: 10px;
+    }
+    
+}
