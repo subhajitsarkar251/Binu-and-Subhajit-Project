@@ -17,14 +17,8 @@
     border:none;
 }
 footer{
-<<<<<<< HEAD
     background-color: #01CBC6;
     position: absolute;
-=======
-    
-    left: 0;
-    bottom: 0;
->>>>>>> cb6891c6dcde109ef4a8d36f8c582fbd5cb7e3fa
     width: 100%;
     text-align: center;
 }
