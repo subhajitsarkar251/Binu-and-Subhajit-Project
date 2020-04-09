@@ -8,15 +8,17 @@
     
     
 }
+.scrd{
+    padding:10px;
+}
 .fa-heart{
     color: red;
     background-color: transparent;
     border:none;
 }
 footer{
+    background-color: #01CBC6;
     position: absolute;
-    left: 0;
-    bottom: 0;
     width: 100%;
     text-align: center;
 }
@@ -48,6 +50,10 @@ footer{
     color:gold;
 }
  
+.aba{
+    margin-bottom: 30px;
+    margin-top:30px;
+}
 /********Mobile view************/
 @media only screen and (max-width: 600px) {
     .fbdy{

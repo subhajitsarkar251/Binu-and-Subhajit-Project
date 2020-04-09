@@ -22,40 +22,53 @@
       </div>
   </nav>
   <br>
-  <div class="fbdy">
+    
   <!--header Item-->
-   <nav>
-    <!--search bar-->
-    <div class="input-group mb-3">
-          <input type="text" class="form-control" placeholder="Shop Name" aria-label="Shop Name" >
-          <div class="input-group-append">
-            <button class="btn btn-outline-secondary" type="button"><i class="fas fa-search"></i></button>
-          </div>
-    </div>
-     <div>
-         <div >
-             <button type="submit" class="btn btn-link ">
-                 <i class="far fa-user-circle"></i>
-            </button>
-             <button type="submit" class="btn btn-link ">
-                 <i class="fas fa-shopping-bag"></i>
-            </button>
-         </div>
-          <!--Brand Name-->
-           <div>
-               <h1>Shop Near you</h1>
-            <!--Tag line-->
-               <p>Find the best Shop Near You</p>
-           </div>
-        
-           
-       </div>
-    </nav>
+      <header class="navbar navbar-default navbar-expand-md">
+            <div class="container-fluid">
+                <div class="navbar-header ">
+                   <h1>
+                       <a class="navbar-brand" href=#>Shop Near You</a>
+                   </h1>
+                </div>
+                <!--Location-->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <i class="fas fa-hamburger"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                   <form class="form-inline ">
+                   
+                    <div class="md-form mt-0">
+                        <input class="form-control" type="text" placeholder="Search Shop Name">
+                    
+                        
+                       </div>
+                    </form>
+                    <form >
+                <!--wishlist-->
+                        <button type="button" class="btn btn-link">
+                           <i class="far fa-heart"></i>
+                        </button>
+                <!--shoping bage-->
+                        <button type="submit" class="btn btn-link ">
+                         <i class="fas fa-shopping-bag"></i>
+                        </button>
+                <!--login btn-->
+                        <button type="button" class="btn btn-link">
+                            <i class="far fa-user-circle"></i>
+                        </button>
+                    </form>
+                    </div>
+                    </div>
+           </div> 
+        </header>
  <!--shop list-->
-       
-       <div class="container-fluid card-deck">
+       <div class="box">
+       <div class="container">
+       <div class="row">
        <!--shop 1-->
-        <div class="card mb-3 " style="max-width: 540px;">
+        <div class="card col-lg-4 col-md-4 col-sm-4 col-xs-12 scrd" >
           <div class="row no-gutters">
             <div class="col-md-4 ">
               <img src="img/shop.jpg" class="card-img">
@@ -70,7 +83,7 @@
           </div>
         </div>
         <!--shop 2-->
-        <div class="card mb-3" style="max-width: 540px;">
+        <div class="card col-lg-4 col-md-4 col-sm-4 col-xs-12 scrd" >
           <div class="row no-gutters">
             <div class="col-md-4">
               <img src="img/shop.jpg" class="card-img">
@@ -85,7 +98,7 @@
           </div>
         </div>
         <!--shop 3-->
-        <div class="card mb-3" style="max-width: 540px;">
+        <div class="card col-lg-4 col-md-4 col-sm-4 col-xs-12 scrd" >
           <div class="row no-gutters">
             <div class="col-md-4">
               <img src="img/shop.jpg" class="card-img">
@@ -100,7 +113,7 @@
           </div>
         </div>
         <!--shop 4-->
-        <div class="card mb-3" style="max-width: 540px;">
+        <div class="card col-lg-4 col-md-4 col-sm-4 col-xs-12 scrd" >
           <div class="row no-gutters">
             <div class="col-md-4">
               <img src="img/shop.jpg" class="card-img">
@@ -115,7 +128,7 @@
           </div>
         </div>
         <!--shop 5-->
-        <div class="card mb-3" style="max-width: 540px;">
+        <div class="card col-lg-4 col-md-4 col-sm-4 col-xs-12 scrd" >
           <div class="row no-gutters">
             <div class="col-md-4">
               <img src="img/shop.jpg" class="card-img">
@@ -130,8 +143,8 @@
           </div>
         </div>
     </div>
-</div>   
-    
+    </div>
+</div>
 <!--Footer-->
      <footer>
         
