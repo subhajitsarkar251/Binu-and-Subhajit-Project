@@ -14,21 +14,21 @@
 </head>
 <body>
  <!--upar side--> 
-
+<div class=" sticky-top">
   <nav class="navbar navbar-light bg-light">
      <div class="container-fluid">
          <i class="fas fa-mobile-alt nvh"> <a href=#>  Get the App</a></i>
          <i class="fas fa-mobile-alt nvh"> <a href=#>  Get the partner App</a></i>
       </div>
   </nav>
-  <br>
+  
     
   <!--header Item-->
-      <header class="navbar navbar-default navbar-expand-md">
-            <div class="container-fluid">
-                <div class="navbar-header ">
+      <header class="navbar navbar-default navbar-expand-md bg-info hds">
+            <div class="container-fluid col-lg-11">
+                <div class="navbar-header col">
                    <h1>
-                       <a class="navbar-brand" href=#>Shop Near You</a>
+                       <a class="navbar-brand mr-0 mr-md-2" href=#>Shop Near You</a>
                    </h1>
                 </div>
                 <!--Location-->
@@ -37,36 +37,45 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav">
-                   <form class="form-inline ">
+                  <!--search bar-->
+                  
+                   <form class="form-inline mx-auto sbo">
                    
                     <div class="md-form mt-0">
-                        <input class="form-control" type="text" placeholder="Search Shop Name">
+                        <input class="form-control ser" type="text" placeholder="Search Shop Name">
                     
                         
                        </div>
                     </form>
-                    <form >
+                    
+                    <ul class="navbar-nav flex-row ml-md-auto d-md-flex icp">
+                    
                 <!--wishlist-->
-                        <button type="button" class="btn btn-link">
-                           <i class="far fa-heart"></i>
-                        </button>
+                        <li class="nav-item">
+                          <a class="nav-link p-2" href="templat/login.html">
+                           <i class="far fa-heart fa-2x"></i>
+                        </a>
+                        </li>
                 <!--shoping bage-->
-                        <button type="submit" class="btn btn-link ">
-                         <i class="fas fa-shopping-bag"></i>
-                        </button>
-                <!--login btn-->
-                        <button type="button" class="btn btn-link">
-                           <a href="templat/login.html">
-                               <i class="far fa-user-circle"></i>
+                        <li class="nav-item">
+                            <a class="nav-link p-2" href="templat/login.html">
+                             <i class="fas fa-shopping-bag fa-2x"></i>
                             </a>
-                        </button>
-                    </form>
+                        </li>
+                <!--login btn-->
+                        <li class="nav-item">
+                           <a class="nav-link p-2" href="templat/login.html">
+                               <i class="far fa-user-circle fa-2x"></i>
+                            </a>
+                        </li>
+                    </ul>
                     </div>
                     </div>
            </div> 
         </header>
+    </div>
  <!--shop list-->
-       <div class="box">
+       <div class="box sls">
        <div class="container">
        <div class="row">
        <!--shop 1-->
@@ -148,32 +157,10 @@
     </div>
 </div>
 <!--Footer-->
-     <footer>
+     <footer  class="page-footer font-small pt-4">
         
-           <!--social icone-->
-             <ul class="list">
-               <li class="list1">Stay in touch:</li>
-                <li class="list1">
-                    <a href=#><i class="fab fa-facebook-f fac"></i></a>
-                 </li>
-                 <li class="list1">
-                     <a href=#> <i class="fab fa-twitter tw"></i></a>
-
-                 </li>
-                 <li class="list1">    
-                     <a href=#><i class="fab fa-google-plus-g g"></i></a>
-                 </li>
-                 <li class="list1">
-                     <a href=#><i class="fab fa-instagram in"></i></a>
-                 </li>
-                 <li class="list1">
-                     <a href=#><i class="fab fa-pinterest p"></i></a>
-                 </li>
-                </ul>
-        
-            <div>
-                <p>Made with <i class="fas fa-heart"></i> and <i class="fas fa-code"></i>
-                By Binu Tamang and Subhajit Sarkar</p>
+           <div class="footer-copyright text-center py-3">Made with <i class="fas fa-heart"></i> and <i class="fas fa-code"></i>
+                  By <a href="https://www.linkedin.com/in/binu-tamang-8b49b2180">Binu Tamang</a> and <a href="www.linkedin.com/in/subhajitsarkar251">Subhajit Sarkar</a>
             </div>
        
      </footer>

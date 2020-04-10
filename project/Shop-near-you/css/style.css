@@ -1,7 +1,12 @@
+
 /***navigation hader****/
 .fbdy{
         margin: 10px;
+        
     }
+.fhd{
+   margin-left: 300px;
+}
     
 .nvh{
     margin: auto;
@@ -11,45 +16,32 @@
 .scrd{
     padding:10px;
 }
+/********shop list style*********/
+.sls{
+    padding:10px;
+   
+}
+/********icon pack***********/
+.fa-shopping-bag{
+    color:#3C40C6;
+    background-color:transparent;
+    border:none;
+    
+    
+}
 .fa-heart{
     color: red;
     background-color: transparent;
     border:none;
+    padding-right:10px;
 }
-footer{
-    background-color: #01CBC6;
-    position: absolute;
-    width: 100%;
-    text-align: center;
+.fa-user-circle{
+    color: black;
+    background-color: transparent;
+    border:none;
+    padding-left:10px;
 }
-/*************social Icon***********/
-.list{
-    margin-top:180px;
-    margin-bottom:90px;
-    margin-left:-40px;;
-}
-.list1{
-    
-    display:inline;
-    padding:10px;
-    font-size:20px;
-}
-.fac{
-    color:#3B5998;
-}
-.tw{
-    color:#429cd6;
-}
-.g{
-    color:red;
-}
-.in{
-    color:saddlebrown;
-}
-.p{
-    color:gold;
-}
- 
+/****form element********/ 
 .aba{
     margin-bottom: 30px;
     margin-top:30px;
@@ -64,12 +56,52 @@ footer{
     margin-bottom:30px;
     background-color: white;
 }
+.ser{
+  transition: width 0.4s ease-in-out;
+}
+.ser:focus{
+    width:150%;
+    
+}
+.icp{
+    position:absolute;
+   right:0%;
+}
+footer{
+    object-position:bottom;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    color:white;
+    background-color: Tomato;
+    
+}
 /********Mobile view************/
 @media only screen and (max-width: 600px) {
     .fbdy{
         margin: 10px;
     }
-    
+    .ser{
+       margin-left: 0;
+        margin-right:10px;
+    }   
+.ser:focus{
+    width:130%;
+}
+    .sbo{
+        display:inline;
+        margin-left:0px;
+        padding-right:240px;
+    }
+    .icp{
+        position:absolute;
+        right:10%;
+        bottom:0.01%;
+        
+        
+    }
 .frml{
     margin-top:45px;
         
